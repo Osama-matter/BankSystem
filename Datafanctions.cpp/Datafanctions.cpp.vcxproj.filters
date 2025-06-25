@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{79877db1-4f3c-4bad-bee5-d1d6d6ce13b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{57ee2f03-7361-41aa-b7b3-e0a09f5810e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen">
+      <UniqueIdentifier>{33475535-ac49-4841-89a3-4bd58f986386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\ClientsScreen">
+      <UniqueIdentifier>{4105622f-519f-4099-8ce3-fccea03b225d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\UsersScreen">
+      <UniqueIdentifier>{e75ca0b6-9c80-4736-b8c8-6b3b7b67bd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen\Transcation">
+      <UniqueIdentifier>{91ac7641-ab06-4ec4-ad8a-ddae3a690824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Currancy">
+      <UniqueIdentifier>{fe738231-a22b-4bc9-ae77-34a699e8002f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainScreen">
+      <UniqueIdentifier>{4670770b-4113-4106-8422-9590a7045afd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BankSystemFullExtiention.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsPerson.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsUsers.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsBankClient.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrency.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsString.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsUtility.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate..h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsDate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsAddNewClient.h">
+      <Filter>Header Files\Screen\ClientsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsFindClient.h">
+      <Filter>Header Files\Screen\ClientsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsDeleteClienteList.h">
+      <Filter>Header Files\Screen\ClientsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsUpdateClient.h">
+      <Filter>Header Files\Screen\ClientsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsShowClienteList.h">
+      <Filter>Header Files\Screen\ClientsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsStartToUpdateUser.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsStarttoFindUser.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsStartToAddUser.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsSartToDeleteUser.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="StartToShowUsersList.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsDeposit.h">
+      <Filter>Header Files\Screen\Transcation</Filter>
+    </ClInclude>
+    <ClInclude Include="ClaTranseferRecord.h">
+      <Filter>Header Files\Screen\Transcation</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsWithdraw.h">
+      <Filter>Header Files\Screen\Transcation</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsTransefer.h">
+      <Filter>Header Files\Screen\Transcation</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsTransactionsScreen.h">
+      <Filter>Header Files\Screen\Transcation</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsStartMainMenueOfUser.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsGlobalUser.h">
+      <Filter>Header Files\Screen\UsersScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsUpdateCurrancy.h">
+      <Filter>Header Files\Currancy</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsLIstCrenseies.h">
+      <Filter>Header Files\Currancy</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsFindCurrrancy.h">
+      <Filter>Header Files\Currancy</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCurrencyScreen.h">
+      <Filter>Header Files\Currancy</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsCurrancyCalculater.h">
+      <Filter>Header Files\Currancy</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsCurrentBalance.h">
+      <Filter>Header Files\Screen\ClientsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsLogIn.h">
+      <Filter>Header Files\MainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsMainMenue.h">
+      <Filter>Header Files\MainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsShowRejecterlogScreen.h">
+      <Filter>Header Files\MainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsScreen.h">
+      <Filter>Header Files\MainScreen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
